@@ -50,6 +50,9 @@ group :development, :test do
 
   # Testes - https://github.com/rspec/rspec-rails
   gem 'rspec-rails', '~> 6.1.0'  
+
+  # Cobertura de Testes - https://github.com/simplecov-ruby/simplecov
+  gem 'simplecov', require: false, group: :test
 end
 
 group :development do
